@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'BrandFont';
+    src: url('/src/Moon.ttf')format(truetype);
+  }
+.brand-name{
+   font: 'BrandFont';
+    font-size: 100px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.R1{
+    animation: fadeIn ease 2s forwards;
+  
+    animation-delay: 1s;
+}
+.A2{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 1.3s;
+}
+.V3{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 1.6s;
+}
+.I4{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 1.9s;
+}
+.S5{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 2.2s;
+}
+.B6{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 2.5s;
+}
+.A7{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 2.8s;
+}
+.B8{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 3.1s;
+}
+.R9{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 3.4s;
+}
+.I10{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 3.7s;
+}
+.Y11{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 4s;
+}
+.A12{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 4.3s;
+}
+.A13{
+    animation: fadeIn ease  2s forwards;
+  
+    animation-delay: 4.6s;
+}
+.A14{
+    animation: blink-animation 1s linear infinite;
+   
+  
+    animation-delay: 4.9s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;color: white;}
+    100% {opacity:1;color: white;}
+    }
+
+@keyframes blink-animation {
+   
+    0% {
+        opacity: 0%;
+        color:white;
+      }
+      50% {
+        opacity: 100%;
+        color:white;
+      }
+  
+      }
+     
+    
+  
+    
+ 
